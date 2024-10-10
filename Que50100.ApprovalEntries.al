@@ -3,8 +3,8 @@ query 50100 ApprovalEntries
     APIGroup = 'pa';
     APIPublisher = 'wingate365';
     APIVersion = 'v1.0';
-    EntityName = 'approvalEntry';
-    EntitySetName = 'approvalEntries';
+    EntityName = 'approvalEntryq';
+    EntitySetName = 'approvalEntriesq';
     QueryType = API;
 
     elements
@@ -97,6 +97,7 @@ query 50100 ApprovalEntries
             }
             column(systemId; SystemId)
             {
+
             }
             column(systemModifiedAt; SystemModifiedAt)
             {

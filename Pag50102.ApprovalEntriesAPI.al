@@ -6,11 +6,12 @@ page 50102 ApprovalEntriesAPI
     ApplicationArea = All;
     Caption = 'approvalEntriesAPI';
     DelayedInsert = true;
-    EntityName = 'approvalEntry';
-    EntitySetName = 'approvalEntries';
+    EntityName = 'approvalEntryapi';
+    EntitySetName = 'approvalEntriesapi';
     PageType = API;
     SourceTable = "Approval Entry";
-    
+    ODataKeyFields = SystemId;
+
     layout
     {
         area(Content)
